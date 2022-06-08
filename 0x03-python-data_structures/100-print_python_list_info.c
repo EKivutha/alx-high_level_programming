@@ -1,4 +1,7 @@
 #include <Python.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <stddef.h>
 
 void print_python_list_info(PyObject *p){
     int size, alloc, i;
